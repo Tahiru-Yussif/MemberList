@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="js/bootstrap.min.js" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    />
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css"
+      integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M"
+      crossorigin="anonymous"
+    />
+
+    <title>CAMSA Fresh Members List</title>
+  </head>
+
+  <body>
+    <header id="main-header" class="bg-danger text-white p-4 mb-3">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <h1 id="header-title">CAMSA Fresh Members List</h1>
+          </div>
+          <div class="col-md-6 align-self-center">
+            <input
+              type="text"
+              class="form-control"
+              id="filter"
+              placeholder="Search Name..."
+            />
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="container">
+      <div id="main" class="card card-body">
+        <h2 class="title">Add Name</h2>
+        <form id="addForm" class="form-inline mb-3">
+          <input
+            type="text"
+            class="form-control mr-2"
+            id="item"
+            placeholder="Please Enter a name..."
+          />
+          <input type="submit" class="btn btn-danger" value="Submit" />
+        </form>
+        <h2 class="title">Names</h2>
+        <ul id="items" class="list-group">
+          <li class="list-group-item">
+            Yussif Tahiru
+            <button class="btn btn-danger btn-sm float-right delete">X</button>
+          </li>
+          <li class="list-group-item">
+            Saddiq Sulaiman
+            <button class="btn btn-danger btn-sm float-right delete">X</button>
+          </li>
+          <li class="list-group-item">
+            Kamaludeen Yahya
+            <button class="btn btn-danger btn-sm float-right delete">X</button>
+          </li>
+          <li class="list-group-item">
+            Fahrudeen Alhassan
+            <button class="btn btn-danger btn-sm float-right delete">X</button>
+          </li>
+          <li class="list-group-item">
+            Jafar Ibn Majah
+            <button class="btn btn-danger btn-sm float-right delete">X</button>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <script src="myScript.js"></script>
+  </body>
+</html>
